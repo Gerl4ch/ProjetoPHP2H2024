@@ -1,22 +1,24 @@
 <?php 
 
-$valor1 = 13;
-$valor2 = 11;
-$valor3 = 12;
+$num1 = 50;
+$num2 = 20;
+$num3 = 30;
 $cont = 0;
 $t = 0;
-while ($cont < 5) {
-	if ($valor1 > $valor3){
-		$t = $valor1;
-		$valo1 = $valor2;
-		$valor1 = $t;
-}elseif ($valor2 > $valor3) {
-	$t =  $valor2;
-	$valor2 = $valor3;
-	$valor3 = $t;}
-	$cont++;
+for ($cont; $cont < 10; $cont++){
+    if ($num1 > $num2){
+        $t = $num1;
+        $num1 = $num2;
+        $num2 = $t;
+
+    }else if($num2 > $num3){
+        $t = $num2;
+        $num2 = $num3;
+        $num3 = $t;
+    }
 }
-echo "$valor1, $valor2, $valor3";
+echo "$num3, $num2, $num1";
 
 //Leonardo Gerlach, Julia Ferreira
+
  ?>
