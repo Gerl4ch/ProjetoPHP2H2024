@@ -116,6 +116,8 @@ echo "O total de alunos de Recuperação foram de $rec <br />";
 echo "O total de alunos Reprovados foram de $reprov <br /> <br />";
 
 printf("A média de notas da classe é de %.2f", $classe);
+
+// Leonardo Gerlach, Julia Ferreira
  ?>
 
 
